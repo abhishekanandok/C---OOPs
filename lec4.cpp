@@ -21,15 +21,11 @@ int main()
     int c = ((((a * 5) + b) - 45) + 87);
     cout << c;
 
-
-
-
-
-
+    // 2. Selection control structure: Switch Case statements
     int age;
     cout << "Tell me your age" << endl;
     cin >> age;
-    // 2. Selection control structure: Switch Case statements
+
     switch (age)
     {
     case 18:

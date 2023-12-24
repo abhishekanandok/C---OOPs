@@ -5,7 +5,6 @@
 // 2. User defined header files: It is written by the programmer
 #include "this.h"
 
-
 using namespace std;
 
 int main()
@@ -16,7 +15,7 @@ int main()
 
     // print 1 to n
     int n;
-    cin >> n; //ye space,tab(\t),enter(\n) read nahi karega
+    cin >> n; // ye space,tab(\t),enter(\n) read nahi karega
 
     int i = 1;
 
