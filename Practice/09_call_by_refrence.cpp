@@ -25,7 +25,7 @@ void swapPointer(int *a, int *b)
 
 // Call by reference using C++ reference Variables
 // int &
-void swapReferenceVar(int &a, int &b)
+void swapReferenceVar(int &a, int &b) //poiter ke alawa method in c++
 {                 // temp a b
     int temp = a; // 4   4  5
     a = b;        // 4   5  5
