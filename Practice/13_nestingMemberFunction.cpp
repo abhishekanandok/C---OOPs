@@ -37,6 +37,8 @@ void binary::read(void)
 {
     cout << "Enter a binary number" << endl;
     cin >> s;
+    cout <<"entered input :- " << s << endl;
+    cout << s.length() << endl;
 }
 
 void binary::chk_bin(void)

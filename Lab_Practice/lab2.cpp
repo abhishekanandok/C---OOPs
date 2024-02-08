@@ -7,13 +7,13 @@ void print_pascal(int row_num)
     for (int n = 1; n <= row_num; n++)
     {
 
-        for (int r = 1; r < row_num - n + 1; r++)
-            cout << "  ";
+        for (int r = 1; r <= row_num - n; r++)
+            cout << " ";
 
         int val = 1;
         for (int r = 1; r <= n; r++)
         {
-            cout << val << "   ";
+            cout << val << " ";
 
             val = val * (n - r) / r;
         }
@@ -24,7 +24,7 @@ void print_pascal(int row_num)
 int main()
 {
 
-    int row_num = 6;
+    int row_num = 5;
     print_pascal(row_num);
 
     return 0;
