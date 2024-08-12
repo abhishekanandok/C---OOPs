@@ -12,7 +12,7 @@ int main()
     cout << "The address of a is " << &a << endl;
     cout << "The address of a is " << b << endl;
 
-    // * ---> (value at) Dereference operator
+    //  (*) ---> (value at) Dereference operator
     cout << "The value at address b is " << *b << endl;
 
     // Pointer to pointer

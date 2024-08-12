@@ -22,8 +22,7 @@ class Complex{
 
 Complex sumComplex(Complex o1, Complex o2){
     Complex o3;
-    o3.setNumber((o1.a + o2.a), (o1.b+o2.b))
-    ;
+    o3.setNumber((o1.a + o2.a), (o1.b+o2.b));
     return o3;
 }
 
@@ -42,6 +41,7 @@ int main(){
 }
 
 /* Properties of friend functions
+
 1. Not in the scope of class
 2. since it is not in the scope of the class, it cannot be called from the object of that class. c1.sumComplex() == Invalid
 3. Can be invoked without the help of any object
