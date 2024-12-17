@@ -8,6 +8,7 @@
 
 Compile-time polymorphism
 Run time polymorphism
+
 Compile Time Polymorphism
 
 In compile-time polymorphism, it is already known which function will run. Compile-time polymorphism is also called early binding, which means that you are already bound to the function call and you know that this function is going to run. There are two types of compile-time polymorphism:

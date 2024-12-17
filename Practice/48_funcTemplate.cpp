@@ -13,11 +13,11 @@ float funcAverage(T1 a, T2 b)
 int main()
 {
     float a;
-    a = funcAverage(5, 2);
+    a = funcAverage<int, int >(5, 2);
     printf("The average of these numbers is %f", a);//c++ me printf bhi use kar sakte hai😁
 
     float b;
-    b = funcAverage(5, 2.8);
+    b = funcAverage<int ,float>(5, 2.8);
     printf("The average of these numbers is %f", b);
     return 0;
 }
